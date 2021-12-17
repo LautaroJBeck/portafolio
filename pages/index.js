@@ -73,6 +73,7 @@ export default function Home() {
       <title>Lautaro Beck - Portafolio</title>
       icon
       </Head>
+      {/**/}
       {backgroundColor=="black"?
       <style jsx global>{`
       body{
@@ -215,7 +216,7 @@ export default function Home() {
           </div>
         </div>
         <div className={backgroundColor=="black"?black.habilidades_logos:white.habilidades_logos}>
-          {["HTML","CSS","Javascript","React.js","Next.js","Bootstrap","Figma","Node.js","MongoDB","MySQL"].map((el,key)=>(
+          {["HTML","CSS","JavaScript","React.js","Next.js","Bootstrap","Figma","Node.js","MongoDB","MySQL"].map((el,key)=>(
             <TemplateHabilidad key={key} nombre={el} src={`/img/icons/${el}.png`}/>
           ))}
         </div>
