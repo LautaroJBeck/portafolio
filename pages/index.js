@@ -73,7 +73,7 @@ export default function Home() {
       <title>Lautaro Beck - Portafolio</title>
       icon
       </Head>
-      {/**/}
+      
       {backgroundColor=="black"?
       <style jsx global>{`
       body{
@@ -216,9 +216,99 @@ export default function Home() {
           </div>
         </div>
         <div className={backgroundColor=="black"?black.habilidades_logos:white.habilidades_logos}>
-          {["HTML","CSS","JavaScript","React.js","Next.js","Bootstrap","Figma","Node.js","MongoDB","MySQL"].map((el,key)=>(
+          {/*["HTML","CSS","JavaScript","React.js","Next.js","Bootstrap","Figma","Node.js","MongoDB","MySQL"].map((el,key)=>(
             <TemplateHabilidad key={key} nombre={el} src={`/img/icons/${el}.png`}/>
-          ))}
+          ))*/}
+        <div>
+          <section>
+            <Image src="/img/icons/HTML.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>HTML</span>
+          </nav>
+        </div>
+
+        <div>
+          <section>
+            <Image src="/img/icons/CSS.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>CSS</span>
+          </nav>
+        </div>
+
+        <div>
+          <section>
+            <Image src="/img/icons/JavaScript.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>JavaScript</span>
+          </nav>
+        </div>
+
+        <div>
+          <section>
+            <Image src="/img/icons/React-js.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>React.JS</span>
+          </nav>
+        </div>
+
+        <div>
+          <section>
+            <Image src="/img/icons/Next-js.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>Next.JS</span>
+          </nav>
+        </div>
+
+        <div>
+          <section>
+            <Image src="/img/icons/Bootstrap.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>Bootstrap</span>
+          </nav>
+        </div>
+
+        <div>
+          <section>
+            <Image src="/img/icons/Figma.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>Figma</span>
+          </nav>
+        </div>
+
+        <div>
+          <section>
+            <Image src="/img/icons/Node-js.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>Node.JS</span>
+          </nav>
+        </div>
+        
+        <div>
+          <section>
+            <Image src="/img/icons/MongoDB.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>MongoDB</span>
+          </nav>
+        </div>
+
+        <div>
+          <section>
+            <Image src="/img/icons/MySQL.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>MySQL</span>
+          </nav>
+        </div>
+
         </div>
       </section>
       <section id="projects" className={backgroundColor=="black"?black.proyectos_container:white.proyectos_container}>
