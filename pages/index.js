@@ -221,7 +221,7 @@ export default function Home() {
           ))*/}
         <div>
           <section>
-            <Image src="/img/icons/HTML.png" height={64} width={64}/> 
+            <Image src="/img/icons/html-img.png" height={64} width={64}/> 
           </section>
           <nav>
             <span>HTML</span>
@@ -230,7 +230,7 @@ export default function Home() {
 
         <div>
           <section>
-            <Image src="/img/icons/CSS.png" height={64} width={64}/> 
+            <Image src="/img/icons/css-img.png" height={64} width={64}/> 
           </section>
           <nav>
             <span>CSS</span>
@@ -239,7 +239,7 @@ export default function Home() {
 
         <div>
           <section>
-            <Image src="/img/icons/JavaScript.png" height={64} width={64}/> 
+            <Image src="/img/icons/javascript-img.png" height={64} width={64}/> 
           </section>
           <nav>
             <span>JavaScript</span>
@@ -248,7 +248,7 @@ export default function Home() {
 
         <div>
           <section>
-            <Image src="/img/icons/React-js.png" height={64} width={64}/> 
+            <Image src="/img/icons/react-js-img.png" height={64} width={64}/> 
           </section>
           <nav>
             <span>React.JS</span>
@@ -257,7 +257,7 @@ export default function Home() {
 
         <div>
           <section>
-            <Image src="/img/icons/Next-js.png" height={64} width={64}/> 
+            <Image src="/img/icons/next-js-img.png" height={64} width={64}/> 
           </section>
           <nav>
             <span>Next.JS</span>
@@ -266,7 +266,7 @@ export default function Home() {
 
         <div>
           <section>
-            <Image src="/img/icons/Bootstrap.png" height={64} width={64}/> 
+            <Image src="/img/icons/bootstrap-img.png" height={64} width={64}/> 
           </section>
           <nav>
             <span>Bootstrap</span>
@@ -275,7 +275,7 @@ export default function Home() {
 
         <div>
           <section>
-            <Image src="/img/icons/Figma.png" height={64} width={64}/> 
+            <Image src="/img/icons/figma-img.png" height={64} width={64}/> 
           </section>
           <nav>
             <span>Figma</span>
@@ -284,7 +284,7 @@ export default function Home() {
 
         <div>
           <section>
-            <Image src="/img/icons/Node-js.png" height={64} width={64}/> 
+            <Image src="/img/icons/node-js-img.png" height={64} width={64}/> 
           </section>
           <nav>
             <span>Node.JS</span>
@@ -293,7 +293,7 @@ export default function Home() {
         
         <div>
           <section>
-            <Image src="/img/icons/MongoDB.png" height={64} width={64}/> 
+            <Image src="/img/icons/mongodb-img.png" height={64} width={64}/> 
           </section>
           <nav>
             <span>MongoDB</span>
@@ -302,7 +302,7 @@ export default function Home() {
 
         <div>
           <section>
-            <Image src="/img/icons/MySQL.png" height={64} width={64}/> 
+            <Image src="/img/icons/mysql-img.png" height={64} width={64}/> 
           </section>
           <nav>
             <span>MySQL</span>
