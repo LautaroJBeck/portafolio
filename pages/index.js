@@ -212,7 +212,7 @@ export default function Home() {
         <div className={backgroundColor=="black"?black.habilidades_text:white.habilidades_text}>
           <div>
           <h2><span>{spanish?"Kit de habilidades":"Skills set"}</span></h2>
-          <p>{spanish?"Estas son algunas tecnologías que soy capaz de usar":"These are some technologies that I'm able to use"}</p>
+          <p>{spanish?"Estas son algunas tecnologías que sé usar":"These are some technologies that I know how to use"}</p>
           </div>
         </div>
         <div className={backgroundColor=="black"?black.habilidades_logos:white.habilidades_logos}>
@@ -321,7 +321,7 @@ export default function Home() {
           parrafo={spanish?"PokeAPI es una página web hecha con Next.js, que consulta a una API y permite ver un listado de pokemones":"PokeAPI is a website made with Next.js, which consults an API and allows you to see a list of pokemons"}
           />
           <TemplateProyectos 
-          url={"https://pokemon-api-delta.vercel.app/"} 
+          url={"https://cryptomarket-rho.vercel.app/"} 
           title="CryptoAPP" 
           img="/img/proyects/cryptoapp.png"
           parrafo={spanish?"Es una aplicación que consulta a la API de CoinGecko, y muestra el top 100 de las criptomonedas con mas capitalización de mercado":"It's an application that consults the CoinGecko API, and shows the top 100 of the cryptocurrencies with the most market capitalization"}
