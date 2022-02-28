@@ -44,7 +44,7 @@ export default function Home() {
   const handleTyped=()=>{
     const typed=new Typed(`.typed`,
     {
-      strings:["Full stack developer","Coder","Self-taught developer"],
+      strings:["Full stack developer","Smart Contracts developer","Self-taught developer"],
       showCursor:false,
       loop:true,
       backDelay:1500,
@@ -140,7 +140,6 @@ export default function Home() {
     ${backgroundColor=="black"?black.mostrar_section:white.mostrar_section} 
     ${(backgroundColor=="black"&&!botonAbierto)&&black.ocultar_section}
     ${(backgroundColor!=="black"&&!botonAbierto)&&white.ocultar_section}
-
     `}>
       <div onClick={()=>handleColor()}>
         <i className={`${backgroundColor=="black"?"fa-solid fa-moon":"fa-solid fa-sun"}`}></i>
@@ -266,6 +265,39 @@ export default function Home() {
 
         <div>
           <section>
+            <Image src="/img/icons/node-js-img.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>Node.JS</span>
+          </nav>
+        </div>
+        <div>
+          <section>
+            <Image src="/img/icons/solidity-img.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>Solidity</span>
+          </nav>
+        </div>
+        <div>
+          <section>
+            <Image src="/img/icons/hardhat-img.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>Hardhat</span>
+          </nav>
+        </div>
+
+        <div>
+          <section>
+            <Image src="/img/icons/ethers.js-img.png" height={64} width={64}/> 
+          </section>
+          <nav>
+            <span>Ethers.js</span>
+          </nav>
+        </div>
+        <div>
+          <section>
             <Image src="/img/icons/bootstrap-img.png" height={64} width={64}/> 
           </section>
           <nav>
@@ -282,14 +314,7 @@ export default function Home() {
           </nav>
         </div>
 
-        <div>
-          <section>
-            <Image src="/img/icons/node-js-img.png" height={64} width={64}/> 
-          </section>
-          <nav>
-            <span>Node.JS</span>
-          </nav>
-        </div>
+
         
         <div>
           <section>
@@ -300,25 +325,19 @@ export default function Home() {
           </nav>
         </div>
 
-        <div>
-          <section>
-            <Image src="/img/icons/mysql-img.png" height={64} width={64}/> 
-          </section>
-          <nav>
-            <span>MySQL</span>
-          </nav>
-        </div>
 
         </div>
+
       </section>
       <section id="projects" className={backgroundColor=="black"?black.proyectos_container:white.proyectos_container}>
         <h2><span>{spanish?"Algunos de mis proyectos":"Some of my projects"}</span></h2>
         <div className={backgroundColor=="black"?black.proyectos_img_container:white.proyectos_img_container}>
+
           <TemplateProyectos 
-          url={"https://pokemon-api-delta.vercel.app/"} 
-          title="PokeAPI" 
-          img="/img/proyects/pokeapi.png"
-          parrafo={spanish?"PokeAPI es una página web hecha con Next.js, que consulta a una API y permite ver un listado de pokemones":"PokeAPI is a website made with Next.js, which consults an API and allows you to see a list of pokemons"}
+          url={"https://mint-tokens-app.vercel.app/"} 
+          title="MintTokens DAPP"
+          img="/img/proyects/minttokens.png"
+          parrafo={spanish?"Es una aplicación descentralizada, con la que puedes acuñar ERC20s dentro de redes de pruebas de Ethereum":"It is a decentralized application, with which you can mint ERC20s within Ethereum testnets"}
           />
           <TemplateProyectos 
           url={"https://cryptomarket-rho.vercel.app/"} 
@@ -327,11 +346,18 @@ export default function Home() {
           parrafo={spanish?"Es una aplicación que consulta a la API de CoinGecko, y muestra el top 100 de las criptomonedas con mas capitalización de mercado":"It's an application that consults the CoinGecko API, and shows the top 100 of the cryptocurrencies with the most market capitalization"}
           />
           <TemplateProyectos 
+          url={"https://pokemon-api-delta.vercel.app/"} 
+          title="PokeAPI" 
+          img="/img/proyects/pokeapi.png"
+          parrafo={spanish?"PokeAPI es una página web hecha con Next.js, que consulta a una API y permite ver un listado de pokemones":"PokeAPI is a website made with Next.js, which consults an API and allows you to see a list of pokemons"}
+          />
+          <TemplateProyectos 
           url={"https://buscador-alpha.vercel.app/"} 
           title={spanish?"Buscador de artistas":"Artists searcher" }
           img="/img/proyects/scren.png"
           parrafo={spanish?"Página hecha con Next.js, consulta a una API y muestra en pantalla al artista o banda que insertaste en el buscador":"Webiste made Next.js, it consults an API and show on the screen the artist or band that you inserted in the search engine"}
           />
+
         </div>
       </section>
       <section id="contact" className={backgroundColor=="black"?black.contacto_container:white.contacto_container}>
